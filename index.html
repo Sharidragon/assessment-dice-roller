@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Roll the Dice Game</h1>
+    
+    <label for="dice-roll">How many rolls</label>
+    <input type="dice-roll" id="dice-roll" name="dice-roll" required
+           minlength="1" maxlength="6" size="20">
+           
+    <button id="roll"
+           type="roll-button">Roll
+     </button>
+
+    <input type="side-roll" id="sideinput" name="side-roll" required
+         minlength="1" maxlength="6" size="20">
+    
+
+     <p id='sum-roll'>Sum of rolls is</p>
+
+    <button class="show"
+        type="show-button">Show all Rolls
+    </button>
+
+<h3>Total</h3>
+    <ol id="total">
+    </ol>
+
+    <button id="reset-button"
+        type="rest-button">Reset
+    </button>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
